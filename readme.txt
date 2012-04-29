@@ -2,7 +2,7 @@
 Contributors: scott@epicmedia.com
 Tags: security, administration, admin 
 Requires at least: 2.8
-Tested up to: 3.3.1
+Tested up to: 3.3.2
 Stable tag: 1.0
 
 Displays the status of WP_DEBUG, DISALLOW_FILE_EDIT, and DISALLOW_FILE_MODS in the Toolbar.
