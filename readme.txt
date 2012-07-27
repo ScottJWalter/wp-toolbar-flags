@@ -2,8 +2,10 @@
 Contributors: scott@epicmedia.com
 Tags: security, administration, admin 
 Requires at least: 2.8
-Tested up to: 3.3.2
-Stable tag: 1.0
+Tested up to: 3.4.1
+Stable tag: 1.0.1
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Displays the status of WP_DEBUG, DISALLOW_FILE_EDIT, and DISALLOW_FILE_MODS in the Toolbar.
 
@@ -20,6 +22,10 @@ A simple plugin to provide a visual reminder of the state of 3 WP flags.  Serves
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Changelog ==
+
+= 1.0.1 =
+* Added [PressTrends](http://www.presstrends.io/) support
+* Selected GPLv2 license
 
 = 1.0 =
 * Initial version of plugin

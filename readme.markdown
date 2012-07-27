@@ -12,5 +12,9 @@ A simple plugin to provide a visual reminder of the state of 3 WP flags.  Serves
 
 ## Changelog 
 
+### 1.0.1 
+* Added [PressTrends](http://www.presstrends.io/) support
+* Selected GPLv2 license
+
 ### 1.0
 * Initial version of plugin
