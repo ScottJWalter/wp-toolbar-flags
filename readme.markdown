@@ -12,6 +12,10 @@ A simple plugin to provide a visual reminder of the state of 3 WP flags.  Serves
 
 ## Changelog 
 
+### 1.1.1 
+* Corrected a "divide by zero" issue inside the [PressTrends](http://www.presstrends.io/) code (which only occurs if you're using WordPress without a blog).
+* Fixed version numbering
+
 ### 1.0.1 
 * Added [PressTrends](http://www.presstrends.io/) support
 * Selected GPLv2 license

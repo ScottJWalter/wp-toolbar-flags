@@ -3,7 +3,7 @@
 Plugin Name: Toolbar Flags
 Plugin URI: http://www.epicmedia.com/tools/tool/wp-toolbar-flags-plugin/
 Description: Displays the status of WP_DEBUG, DISALLOW_FILE_EDIT, and DISALLOW_FILE_MODS in the Toolbar.
-Version: 1.0.1
+Version: 1.1.1
 Author: Scott Walter
 Author URI: http://About.Me/ScottJWalter
 License: GPL2
@@ -99,7 +99,7 @@ class Epic_ToolbarFlags {
 			$plugin_data = get_plugin_data( __FILE__ );
 			$plugin_version = $plugin_data['Version'];
 			$posts_with_comments = $wpdb->get_var("SELECT COUNT(*) FROM {$wpdb->prefix}posts WHERE post_type='post' AND comment_count > 0");
-			$comments_to_posts = number_format(($posts_with_comments / $count_posts->publish) * 100, 0, '.', '');
+			$comments_to_posts = ($count_posts->publish == 0) ? '0' : number_format(($posts_with_comments / $count_posts->publish) * 100, 0, '.', '');
 			$pingback_result = $wpdb->get_var('SELECT COUNT(comment_ID) FROM '.$wpdb->comments.' WHERE comment_type = "pingback"');
 			$data['url'] = stripslashes(str_replace(array('http://', '/', ':' ), '', site_url()));
 			$data['posts'] = $count_posts->publish;
