@@ -1,9 +1,9 @@
 === Toolbar flags ===
-Contributors: scott@epicmedia.com
-Tags: security, administration, admin 
+Contributors: scott@scottjwalter.consulting
+Tags: security, administration, admin
 Requires at least: 2.8
-Tested up to: 3.4.1
-Stable tag: 1.1.1
+Tested up to: 5.3
+Stable tag: 1.2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,6 +22,14 @@ A simple plugin to provide a visual reminder of the state of 3 WP flags.  Serves
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Changelog ==
+
+= 1.2.0 =
+* Dropped [PressTrends](http://www.presstrends.io/) support
+* Renamed based class (prep for core unification)
+
+= 1.1.2 =
+* Bumped readme.txt to current release versions
+* Non-essential upgrade to re-connect with the SVN deployment process
 
 = 1.1.1  =
 * Corrected a "divide by zero" issue inside the [PressTrends](http://www.presstrends.io/) code (which only occurs if you're using WordPress without a blog).
