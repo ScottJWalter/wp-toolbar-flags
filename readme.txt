@@ -25,6 +25,7 @@ A simple plugin to provide a visual reminder of the state of 3 WP flags.  Serves
 
 = 1.2.1 =
 * Cleaned up documentation contact info
+* Added Plugin Directory assets
 
 = 1.2.0 =
 * Dropped [PressTrends](http://www.presstrends.io/) support
