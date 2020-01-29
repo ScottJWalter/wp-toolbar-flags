@@ -1,9 +1,9 @@
 === Toolbar flags ===
-Contributors: scott@scottjwalter.consulting
+Contributors: scottjwalter
 Tags: security, administration, admin
 Requires at least: 2.8
 Tested up to: 5.3
-Stable tag: 1.2.0
+Stable tag: 1.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,6 +22,9 @@ A simple plugin to provide a visual reminder of the state of 3 WP flags.  Serves
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Changelog ==
+
+= 1.2.1 =
+* Cleaned up documentation contact info
 
 = 1.2.0 =
 * Dropped [PressTrends](http://www.presstrends.io/) support

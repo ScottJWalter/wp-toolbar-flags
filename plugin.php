@@ -1,14 +1,14 @@
 <?php
 /*
 Plugin Name: WP Toolbar Flags
-Plugin URI: https://github.com/scottjwalter/wp-toolbar-flags/
+Plugin URI: https://scottjwalter.consulting/
 Description: Displays the status of WP_DEBUG, DISALLOW_FILE_EDIT, and DISALLOW_FILE_MODS in the Toolbar.
-Version: 1.2.0
-Author: Scott Walter
-Author URI: https://ScottJWalter.Info
+Version: 1.2.1
+Author: Scott J. Walter
+Author URI: https://profiles.wordpress.org/scottjwalter/
 License: GPL2
 
-Copyright 2012  Scott Walter  (email : scott@scottjwalter.consulting)
+Copyright 2012  Scott J. Walter  (email : scott@scottjwalter.consulting)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License, version 2, as
@@ -24,8 +24,6 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 */
-
-new SJWC_ToolbarFlags;
 
 class SJWC_ToolbarFlags {
 	private $is_set;
@@ -113,3 +111,5 @@ class SJWC_ToolbarFlags {
         }
     }
 }
+
+new SJWC_ToolbarFlags;
